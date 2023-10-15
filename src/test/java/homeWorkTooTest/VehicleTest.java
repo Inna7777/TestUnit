@@ -71,7 +71,7 @@ import static org.junit.jupiter.api.Assertions.*;
          motorcycle.testDrive();
          assertEquals(75, motorcycle.getSpeed());
      }
-     //- проверrf, что в режиме парковки (сначала testDrive, потом park, т.е эмуляция движения транспорта) машина останавливается (speed = 0)
+     //- проверка, что в режиме парковки (сначала testDrive, потом park, т.е эмуляция движения транспорта) машина останавливается (speed = 0)
      @Test
      public void testCarParkSpeedTo0() {
          car.testDrive();
