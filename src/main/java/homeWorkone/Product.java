@@ -1,4 +1,4 @@
-package homeWork_one;
+package homeWorkone;
 
 public class Product {
     /** наименование продукта */

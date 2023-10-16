@@ -1,7 +1,4 @@
-package homeWorkTooTest;
-import homeWorkToo.Car;
-import homeWorkToo.Motorcycle;
-import homeWorkToo.Vehicle;
+package homeWorkToo;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -82,6 +79,6 @@ import static org.junit.jupiter.api.Assertions.*;
      public void testMotoParkSpeedTo0() {
          motorcycle.testDrive();
          motorcycle.park();
-         assertEquals(1, motorcycle.getSpeed());
+         assertEquals(0, motorcycle.getSpeed());
      }
 }

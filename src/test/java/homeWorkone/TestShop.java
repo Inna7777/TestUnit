@@ -1,6 +1,4 @@
-package task6;
-import homeWork_one.Product;
-import homeWork_one.Shop;
+package homeWorkone;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -63,7 +61,7 @@ public class TestShop {
     @Test
     public void testesPrice() {
        Product product1 = new Product("Хлеб",1.00);
-        product1.setPrice(1.0);
+        product1.setPrice(1.00);
        assertEquals(product1,  product1.getPrice());
     }
 
