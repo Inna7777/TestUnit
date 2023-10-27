@@ -12,7 +12,7 @@ public class Main {
             list1.add((int) (Math.random() * 10));
             list2.add((int) (Math.random() * 10));
         }
-        //вычисляем среднее занчение каждого списка
+        //вычисляем среднуу значения
         double avg1 = getAverage(list1);
         double avg2 = getAverage(list2);
 
